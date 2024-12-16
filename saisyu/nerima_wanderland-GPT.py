@@ -51,7 +51,7 @@ def generate_gpt_comment(destinations):
         return f"コメント生成中にエラーが発生しました: {e}"
 
 # CSVデータを読み込み
-data = pd.read_csv("destinations.csv")
+data = pd.read_csv("/destinations.csv")
 
 # 固定された出発地
 fixed_origin = "豊島園駅"
